@@ -65,8 +65,13 @@ body{
     accent-color: #ffffff;
     margin-right: 3px;
 }
+.lembrar-senha a{
+    color: #ffffff;
+    text-decoration: none;
+}
 .lembrar-senha a:hover{
     text-decoration: underline;
+    color: #333333;
 }
 .main .botao{
     width: 100%;
@@ -93,6 +98,7 @@ body{
 }
 .registar p a:hover{
     text-decoration: underline;
+    color: #333333;
 }
 /*Cadastre-se*/
 
@@ -102,6 +108,12 @@ body{
     width: 100%;
     height: 50px;
     margin: 30px 0;
+}
+.main .input-box.input-senha-confirmar{
+    margin: 0 0 80px;
+}
+.main .input-box.input-senha-confirmar input{
+    margin: 3px 0;
 }
 .input-nome input{
     align-items: center;
