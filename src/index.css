@@ -94,4 +94,94 @@ body{
 .registar p a:hover{
     text-decoration: underline;
 }
+/*Cadastre-se*/
 
+.main .input-nome{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-nome input{
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline-style: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px 45px 20px 20px;
+    margin: 0 10px 0 0;
+}
+.input-nome input::placeholder{
+    color: #ffffff;
+}
+.main .data-nascimento{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 20px;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius:10px;
+}
+.main .data-nascimento p , .main .genero p{
+    text-align: center;
+}
+.main .data-nascimento .select-data{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.main .data-nascimento .select-data select{
+    width: 105px;
+    border: 2px solid rgba(255, 225, 255, rgba(255, 255, 255, .2));
+    border-radius: 10px;
+    background: transparent;
+    margin: 5px 2px;
+    color: #ffffff;
+}
+.main .data-nascimento .select-data option{
+    background: #333333;
+    text-align: center;
+}
+.main .genero{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 20px;
+    padding: 10px 0 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius:10px;
+}
+.main .genero .generos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px 5px;
+}
+.main .genero .generos label{
+    width: 155px;
+    margin: 5px 5px;
+}
+.main .acessar{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.acessar p a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.acessar p a:hover{
+    text-decoration: underline;
+}

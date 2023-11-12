@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+
+    <link rel="stylesheet" href="/src/index.css">
+</head>
+
+<body>
+    <form action="" class="main">
+        <h1>Cadastre-se</h1>
+        <div class="input-nome">
+            <input type="text" nome="nome" placeholder="Nome:" required>
+            <input type="text" nome="sobrenome" placeholder="Sobrenome:" required>
+        </div>
+
+        <div class="input-box">
+            <input type="email" name="EMail" required placeholder="E-mail: MeuEmail@meu.com">
+        </div>
+        <div class="input-box">
+            <input type="password" name="senha" placeholder="Senha: MinhaSenha" required>
+        </div>
+        <div>
+            <div class="data-nascimento">
+                <p>Data de Nascimento</p>
+                <div class="select-data">
+                    <div>
+                        <p>Dias</p>
+                        <select name="Dia">
+                            <option value="dia-0" selected></option>
+                            <option value="dia-1">1</option>
+                            <option value="dia-2">2</option>
+                            <option value="dia-3">3</option>
+                            <option value="dia-4">4</option>
+                            <option value="dia-5">5</option>
+                            <option value="dia-6">6</option>
+                            <option value="dia-7">7</option>
+                            <option value="dia-8">8</option>
+                            <option value="dia-9">9</option>
+                            <option value="dia-10">10</option>
+                            <option value="dia-11">11</option>
+                            <option value="dia-12">12</option>
+                            <option value="dia-13">13</option>
+                            <option value="dia-14">14</option>
+                            <option value="dia-15">15</option>
+                            <option value="dia-16">16</option>
+                            <option value="dia-17">17</option>
+                            <option value="dia-18">18</option>
+                            <option value="dia-19">19</option>
+                            <option value="dia-20">20</option>
+                            <option value="dia-21">21</option>
+                            <option value="dia-22">22</option>
+                            <option value="dia-23">23</option>
+                            <option value="dia-24">24</option>
+                            <option value="dia-25">25</option>
+                            <option value="dia-26">26</option>
+                            <option value="dia-27">27</option>
+                            <option value="dia-28">28</option>
+                            <option value="dia-29">29</option>
+                            <option value="dia-30">30</option>
+                            <option value="dia-31">31</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Mês</p>
+                        <select name="mes">
+                            <option value="valor-0" selected></option>
+                            <option value="mes-1">Janeiro</option>
+                            <option value="mes-2">Fevereiro</option>
+                            <option value="mes-3">Março</option>
+                            <option value="mes-4">Abril</option>
+                            <option value="mes-5">Maio</option>
+                            <option value="mes-6">Junho</option>
+                            <option value="mes-7">Julho</option>
+                            <option value="mes-8">Agosto</option>
+                            <option value="mes-9">Setempro</option>
+                            <option value="mes-10">Outubro</option>
+                            <option value="mes-11">Novembro</option>
+                            <option value="mes-12">Dezembro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Ano</p>
+                        <select name="ano">
+                            <option value="valor-0"></option>
+                            <option value="ano-1">2005</option>
+                            <option value="ano-2">2004</option>
+                            <option value="ano-3">2003</option>
+                            <option value="ano-4">2002</option>
+                            <option value="ano-5">2001</option>
+                            <option value="ano-6">2000</option>
+                            <option value="ano-7">1999</option>
+                            <option value="ano-8">1998</option>
+                            <option value="ano-7">1997</option>
+                            <option value="ano-8">1996</option>
+                            <option value="ano-9">1995</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="genero">
+                <p>Gênero</p>
+                <div class="generos">
+                    <label>feminino <input type="radio" name="genero"></label>
+                    <label>Masculino <input type="radio" name="genero"></label>
+                    <label>Outros <input type="radio" name="genero"></label>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="botao">Cadastre-se</button>
+        <div class="acessar">
+            <p>Já tem uma conta? <a href="/index.html">Acessar</a></p>
+        </div>
+    </form>
+
+</body>
+
+</html>
